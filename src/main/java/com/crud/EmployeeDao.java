@@ -28,7 +28,7 @@ public Employee getId(int a) {
 }
 public String getIds(int a) {
 	er.deleteById(a);
-	return "Successfully deleted";
+	return "Successfully deleteed all 10 9";
 }
 public List<Employee>midAge() {
 	return er.findAll();
